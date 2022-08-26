@@ -1,71 +1,105 @@
-training:
+developer-guide:
   - page: developer-portal/index.md
-  - group: Training exercises
-    expanded: true
-    pages:
-      - label: Setup
-        page: developer-portal/setup.md
-      - label: Markdown
-        page: developer-portal/markdown.md
-      - label: Folder structure
-        page: developer-portal/awesome/folders.md
-      - label: Mermaid diagrams
-        page: developer-portal/mermaid.md
-      - label: Page table of contents
-        page: developer-portal/page-table-of-contents.md
-      - separator: This is a separator
-      - label: Sidebar navigation
-        page: developer-portal/sidebar-nav.md
-      - label: Search
-        page: developer-portal/search.md
-      - label: Top nav and footers
-        page: developer-portal/nav-footer.md
-      - label: Logo and favicon
-        page: developer-portal/logo.md
-      - label: Metadata
-        page: developer-portal/metadata.md
-      - label: Colors
-        page: developer-portal/colors.md
-      - label: Typography
-        page: developer-portal/typography.md
-      - label: Analytics
-        page: developer-portal/analytics.md
-      - label: Home page
-        page: developer-portal/home-page.md
-      - label: Adding API reference docs
-        page: developer-portal/oas-definitions.md
-      - label: Adding an API response to an MDX page
-        page: developer-portal/mdx.mdx
-      - label: Creating React components
-        page: developer-portal/custom-component.mdx
-  - group: Petstore reference
+  - group: Public API reference
     expanded: false
     pages:
-      - page: openapi/reference.page.yaml/*
-
-  - group: Admin
-    expanded: true
+      - page: openapi/public-reference.page.yaml/*
+  - group: Platform API reference
+    expanded: false
     pages:
-      - group: Routine
+      - page: openapi/platform-reference.page.yaml/*
+  - group: Developer Guide
+    expanded : true
+    pages:
+      - group : Intro
         expanded: true
         pages:
-          - group: Rock
-            expanded: true
-            pages:
-              - group: Paper
-                expanded: true
-                pages:
-                  - group: Scissors
-                    expanded: true
-                    pages:
-                      - group: 1-2-3
-                        expanded: true
-                        pages:
-                          - group: Go
-                            expanded: true
-                            pages:
-                              - label: Upgrading
-                                # page: developer-portal/upgrade.md
+          - label: Introduction to Shippo
+            page: developer-portal/docs/intro/Intro.md
+      - group: Basics
+        expanded: true
+        pages:
+          - label: Address Validation
+            page: developer-portal/docs/basics/AddressValidation.md
+          - label: International Shipping
+            page: developer-portal/docs/basics/InternationalShipping.md
+          - label: Refunding Labels
+            page: developer-portal/docs/basics/RefundingLabels.md
+          - label: Tracking
+            page: developer-portal/docs/basics/Tracking.md
+          - label: Webhooks
+            page: developer-portal/docs/basics/Webhooks.md
+          - label: Shipping Labels
+            page: developer-portal/docs/basics/ShippingLabels.md
+      - group: Advanced
+        expanded  : true
+        pages:
+          - label: Alcohol Shipments
+            page: developer-portal/docs/advanced/AlcoholShipments.md
+          - label: BatchLabelCreation
+            page: developer-portal/docs/advanced/BatchLabelCreation.md
+          - label: DryIceShipment
+            page: developer-portal/docs/advanced/DryIceShipment.md
+          - label: EPostGlobal
+            page: developer-portal/docs/advanced/EPostGlobal.md
+          - label: Manifest And Scan Forms
+            page: developer-portal/docs/advanced/MannifestAndScanForms.md
+          - label: MultiPieceShipment.md
+            page: developer-portal/docs/advanced/MultiPieceShipment.md
+          - label: Orders
+            page: developer-portal/docs/advanced/Orders.md
+          - label: Pickups
+            page: developer-portal/docs/advanced/Pickups.md
+          - label: Returns
+            page: developer-portal/docs/advanced/Returns.md
+          - label: ShippingInsurance
+            page: developer-portal/docs/advanced/ShippingInsurance.md
+          - label: Shipping on Stripe
+            page: developer-portal/docs/advanced/ShippingOnStripe.md
+
+      - group: Platforms
+        expanded: true
+        pages:
+          - label: Building Shipping Integrations
+            page: developer-portal/docs/platforms/BuildingShippoIntegration.md
+          - label: OAuth
+            page: developer-portal/docs/platforms/OAuth.md
+          - label: Standalone Shippo Accounts
+            page: developer-portal/docs/platforms/StandaloneShippoAccounts.md
+          - label: WebAppOrderSync
+            page: developer-portal/docs/platforms/WebAppOrderSync.md
+          - label: WhiteLabelIntegration
+            page: developer-portal/docs/platforms/WhiteLabelIntegration.md
+
+      - group: Setup
+        expanded: true
+        pages:
+          - label: Authentication
+            page: developer-portal/docs/setup/Authentication.md
+          - label: Carrier Accounts
+            page: developer-portal/docs/setup/CarrierAccounts.md
+          - label: Client Libnraries
+            page: developer-portal/docs/setup/ClientLibraries.md
+          - label: Test Mode
+            page: developer-portal/docs/setup/TestMode.md
+#      Build this section from developer-portal/docs/references/
+      - group : Reference
+        expanded: true
+        pages:
+          - label: API Change Log
+            page: developer-portal/docs/references/APIChangeLog.md
+          - label: API Versioning
+            page: developer-portal/docs/references/APIVersioning.md
+          - label: Asynchronous API Calls
+            page: developer-portal/docs/references/AsynchronusAPICall.md
+          - label: Carrier Capabilities
+            page: developer-portal/docs/references/CarrierCapabalities.md
+          - label: Filtering
+            page: developer-portal/docs/references/Filtering.md
+          - label: Rate Limits
+            page: developer-portal/docs/references/RateLimits.md
+
+
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example
