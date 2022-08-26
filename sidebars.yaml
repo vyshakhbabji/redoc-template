@@ -99,7 +99,3 @@ developer-guide:
           - label: Rate Limits
             page: developer-portal/docs/references/RateLimits.md
 
-
-alternative:
-  - page: developer-portal/sidebar-alternative.md
-    label: Alternative sidebar example
