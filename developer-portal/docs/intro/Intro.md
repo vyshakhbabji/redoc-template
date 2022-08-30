@@ -1,23 +1,15 @@
 Shippo API Documentation
 ========================
 
-Welcome to the Shippo API documentation! Here you'll find tutorials and references to get you shipping with Shippo -----
-
-[
-
-![](data:image/svg+xml;charset=utf-8,%3Csvg height='206' width='218' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E)
+Welcome to the Shippo API documentation! Here you'll find tutorials and references to get you shipping with Shippo 
 
 ![](https://goshippo.com/static/38de7cfe319382a539c7fe568d6bf5ed/6bf18/create_first_shipment%402x.png)
 
 ##### Create Your First Shipment
 
-Create a shipment, get rates, and generate your first shipping label. Use our default carrier accounts, to get started right away!
+Create a shipment, get rates, and generate your [first shipping label](https://goshippo.com/docs/shipping-labels/). Use our default carrier accounts, to get started right away!
 
-](https://goshippo.com/docs/shipping-labels/)
 
-[
-
-![](data:image/svg+xml;charset=utf-8,%3Csvg height='142' width='204' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E)
 
 ![](https://goshippo.com/static/e80b6e86b3e95d8415d925cb1b16529c/7ce73/api_reference%402x.png)
 
