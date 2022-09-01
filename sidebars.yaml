@@ -9,15 +9,20 @@ developer-guide:
     pages:
       - page: openapi/platform-reference.page.yaml/*
   - group: Developer Guide
-    expanded : true
+    expanded : false
     pages:
       - group : Intro
-        expanded: true
+        expanded: false
         pages:
           - label: Introduction to Shippo
             page: developer-portal/docs/intro/Intro.md
+      - group : Intro
+        expanded: false
+        pages:
+          - label: Quick Start guide
+            page: developer-portal/docs/guides/API_quickstart.md
       - group: Basics
-        expanded: true
+        expanded: false
         pages:
           - label: Address Validation
             page: developer-portal/docs/basics/AddressValidation.md
@@ -58,7 +63,7 @@ developer-guide:
             page: developer-portal/docs/advanced/ShippingOnStripe.md
 
       - group: Platforms
-        expanded: true
+        expanded: false
         pages:
           - label: Building Shipping Integrations
             page: developer-portal/docs/platforms/BuildingShippoIntegration.md
@@ -72,7 +77,7 @@ developer-guide:
             page: developer-portal/docs/platforms/WhiteLabelIntegration.md
 
       - group: Setup
-        expanded: true
+        expanded: false
         pages:
           - label: Authentication
             page: developer-portal/docs/setup/Authentication.md
@@ -84,7 +89,7 @@ developer-guide:
             page: developer-portal/docs/setup/TestMode.md
 #      Build this section from developer-portal/docs/references/
       - group : Reference
-        expanded: true
+        expanded: false
         pages:
           - label: API Change Log
             page: developer-portal/docs/references/APIChangeLog.md
