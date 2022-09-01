@@ -16,7 +16,7 @@ developer-guide:
         pages:
           - label: Introduction to Shippo
             page: developer-portal/docs/intro/Intro.md
-      - group : Intro
+      - group : Guides
         expanded: false
         pages:
           - label: Quick Start guide
